@@ -1,0 +1,50 @@
+.inc{
+    width: 100vw;
+    height: 100vh;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inc .card{
+    width: 300px;
+    height: 450px;
+    background:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #000,0px 0px 5px #000;
+    
+}
+.inc .card h1{
+    background:wheat;
+    color:lemonchiffon;
+    font-size: 4em;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 1px 3px #444;
+    text-shadow: 1px 1px 3px #444;
+}
+ .inc .card .btn{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:70px;
+}
+
+.inc .card .btn button{
+    font-size: 3em;
+    padding: 0px 20px;
+    color:#fff;
+    border:none;
+    box-shadow: 0px 0px 3px #444;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px #444;
+    background: #fff;
+}
+.inc .card .btn button:nth-child(1){
+    background:aquamarine;
+}
+.inc .card .btn button:nth-child(2){
+    background:darksalmon;
+} 

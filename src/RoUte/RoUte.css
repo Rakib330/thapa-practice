@@ -1,0 +1,31 @@
+.RoUte{
+    height: 100vh;
+    background: springgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.RoUte h2{
+    font-size: 5em;
+    color: teal;
+}
+.RoUte ul{
+    display: flex;
+    list-style: none;
+}
+.RoUte ul li .link{
+    padding: 10px 20px;
+    background: forestgreen;
+    margin: 5px;
+    color:gold;
+    font-size: 4em;
+    border-radius: 15px;
+}
+.RoUte ul li  .link.active{
+    background: yellowgreen;
+    color: white;
+}
+.RoUte ul li .link:hover{
+    background:teal;
+}

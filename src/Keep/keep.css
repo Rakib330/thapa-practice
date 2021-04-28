@@ -1,0 +1,21 @@
+.keepMain{
+    background: floralwhite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.keepMain Footer{
+    width: 100%;
+}
+.keep{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.card{
+    margin:10px;
+    box-shadow: 0px 0px 3px #f2f2f2,0px 0px 8px #f2f2f2;
+}

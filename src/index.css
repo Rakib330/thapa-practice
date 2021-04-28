@@ -1,0 +1,8 @@
+*{
+    text-decoration:none;
+    list-style-type: none;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

@@ -1,0 +1,33 @@
+.useeff{
+    height: 100vh;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.useeff p{
+    font-size: 2em;
+    color: deeppink;
+}
+.useeff h1{
+    font-size: 3em;
+    color: seagreen;
+}
+.useeff button{
+    padding: 7px 25px;
+    background: coral;
+    border: none;
+    font-size: 2em;
+    color:darkred;
+    border-radius: 5px;
+    border-bottom: 5px solid darkred;
+    transition: .1s;
+}
+.useeff button:hover{
+    background:orangered;
+    color:white;
+}
+.useeff button:active{
+    border-bottom: 2px solid darkred;
+}

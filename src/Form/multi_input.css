@@ -1,0 +1,45 @@
+ .form-main{
+    width: 100vw;
+    height: 100vh;
+    background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form-main h1{
+    color: crimson;
+    font-size:4em;
+    font-family:fantasy;
+  }
+  .form-main p{
+    color:indianred;
+    font-size:2em;
+    font-family:fantasy;
+  }
+  .form-main form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-main input{
+    width: 100%;
+    height: 50px;
+    color:#999;
+    font-family:fantasy;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .form-main button{
+    padding: 0 20px;
+    color: burlywood;
+    background: crimson;
+    border: 2px solid orangered;
+    border-radius: 15%;
+    font-size:3em;
+    font-family:fantasy;
+    cursor: pointer;
+  }
